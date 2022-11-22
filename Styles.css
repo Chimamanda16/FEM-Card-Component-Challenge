@@ -1,0 +1,59 @@
+body{
+	background-color:#F8EDE3;
+	font-family: "Fraunces", serif;
+}
+
+button:hover{
+
+}
+
+h1{
+	font-weight: 700;
+}
+
+img{
+	height: 31.1rem;
+	width: 12rem;
+}
+
+.cart-image{
+	width: 12px;
+	height: 12px;
+}
+
+.main-card{
+	height: 500px;
+	width: 550px;
+}
+
+.org-price{
+	display: inline-block;
+	font-size: 10px;
+	line-height: 50px;
+	width: 100%;
+}
+
+.price-text{
+	color: green;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.top-text{
+	letter-spacing: 4px;
+}
+
+@media (min-width: 770px){
+	.card-image-mobile{
+		display: none;
+	}
+}
+
+@media (max-width: 770px){
+	.card-image-desktop{
+		display: none;
+	}
+	.card-image-mobile{
+		display: inline-block;
+	}
+}
